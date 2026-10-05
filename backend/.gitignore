@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# ML artifacts
+*.pt
+*.pth
+backend/ml/artifacts/*
+!backend/ml/artifacts/.gitkeep
+
+# Generated reports if you don't want all of them
+# backend/ml/reports/*
+
+# Dataset
+dataset/
+datasets/
+data/
+PlantVillage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# External dataset repositories
+dataset-audit/IP102/
+dataset-audit/PlantDoc-Object-Detection-Dataset/
+dataset-audit/PlantVillage-Dataset/
+dataset-audit/tomato-disease-dataset/
+
